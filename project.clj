@@ -24,7 +24,7 @@
   :plugins [[lein-cljsbuild "1.1.7"]
             [environ/environ.lein "0.3.1"]]
   :hooks [environ.leiningen.hooks
-          ;;leiningen.cljsbuild
+          leiningen.cljsbuild
           ]
   :clean-targets ^{:protect false} ["resources/public/js/compiled" "resources/public/js/out" "target" "test/js"]
 
